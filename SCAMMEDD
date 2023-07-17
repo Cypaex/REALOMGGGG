@@ -24,4 +24,3 @@ _G.ThirdText = "Almost Done..."
 _G.WaitingTime = 180 -- in secondes it's the time for the loading bar to hit from 0% to 100%
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Cypaex/CypaexHub/main/CypaexHub"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Cypaex/Loading/main/Engine"))()
