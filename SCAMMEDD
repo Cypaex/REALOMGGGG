@@ -21,6 +21,6 @@ _G.ScriptName = "Cypaex Hub"
 _G.FirstText = "Preparing..."
 _G.SecondText = "Loading..."
 _G.ThirdText = "Checking The Script.."
-_G.WaitingTime = 999 -- in secondes it's the time for the loading bar to hit from 0% to 100%
+_G.WaitingTime = 180 -- in secondes it's the time for the loading bar to hit from 0% to 100%
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Cypaex/CypaexHub/main/CypaexHub"))()
